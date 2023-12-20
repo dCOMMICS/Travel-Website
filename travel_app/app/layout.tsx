@@ -5,6 +5,8 @@ import Navbar from '';
 import Footer from './@component';
 
 
+
+
 export const metadata: Metadata = {
   title: 'Travel',
   description: 'Travel Website for Camping',
