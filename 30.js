@@ -87,3 +87,9 @@ const data = Data.fromBytes(2000);
 
 data.kilobytes; // 2
 data.bits; // 16000
+
+
+const all = (arr, fn = Boolean) => arr.every(fn);
+
+all([4, 2, 3], x => x > 1); // true
+all([1, 2, 3]); // true
